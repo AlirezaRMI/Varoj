@@ -1,6 +1,8 @@
+using Data.Entities.Base;
+
 namespace Data.Entities;
 
-public class CategoryProducts
+public class CategoryProducts : BaseEntity
 {
     public int CategoryId { get; set; }
     public int ProductId { get; set; }

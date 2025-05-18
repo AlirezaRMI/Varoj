@@ -1,12 +1,16 @@
 using Data.Context;
+using Data.Repository;
+using Data.Repository.Contract;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<VarojContext>(option=>
-    option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<VarojContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Varooj")));
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 var app = builder.Build();
 

@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/farzad/RiderProjects/Varoj/Web/Web.csproj": {}
+    "C:\\Users\\20\\Desktop\\varooj\\Web\\Web.csproj": {}
   },
   "projects": {
-    "/Users/farzad/RiderProjects/Varoj/Core/Core.csproj": {
+    "C:\\Users\\20\\Desktop\\varooj\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/farzad/RiderProjects/Varoj/Core/Core.csproj",
+        "projectUniqueName": "C:\\Users\\20\\Desktop\\varooj\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/farzad/RiderProjects/Varoj/Core/Core.csproj",
-        "packagesPath": "/Users/farzad/.nuget/packages/",
-        "outputPath": "/Users/farzad/RiderProjects/Varoj/Core/obj/",
+        "projectPath": "C:\\Users\\20\\Desktop\\varooj\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\20\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20\\Desktop\\varooj\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/farzad/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\PakagesForProjects": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -81,35 +88,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/farzad/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/farzad/RiderProjects/Varoj/Data/Data.csproj": {
+    "C:\\Users\\20\\Desktop\\varooj\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/farzad/RiderProjects/Varoj/Data/Data.csproj",
+        "projectUniqueName": "C:\\Users\\20\\Desktop\\varooj\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "/Users/farzad/RiderProjects/Varoj/Data/Data.csproj",
-        "packagesPath": "/Users/farzad/.nuget/packages/",
-        "outputPath": "/Users/farzad/RiderProjects/Varoj/Data/obj/",
+        "projectPath": "C:\\Users\\20\\Desktop\\varooj\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\20\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20\\Desktop\\varooj\\Data\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/farzad/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\PakagesForProjects": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/farzad/RiderProjects/Varoj/Core/Core.csproj": {
-                "projectPath": "/Users/farzad/RiderProjects/Varoj/Core/Core.csproj"
+              "C:\\Users\\20\\Desktop\\varooj\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\20\\Desktop\\varooj\\Core\\Core.csproj"
               }
             }
           }
@@ -123,12 +136,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.5, )"
@@ -166,35 +184,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/farzad/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/farzad/RiderProjects/Varoj/Web/Web.csproj": {
+    "C:\\Users\\20\\Desktop\\varooj\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/farzad/RiderProjects/Varoj/Web/Web.csproj",
+        "projectUniqueName": "C:\\Users\\20\\Desktop\\varooj\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "/Users/farzad/RiderProjects/Varoj/Web/Web.csproj",
-        "packagesPath": "/Users/farzad/.nuget/packages/",
-        "outputPath": "/Users/farzad/RiderProjects/Varoj/Web/obj/",
+        "projectPath": "C:\\Users\\20\\Desktop\\varooj\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\20\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20\\Desktop\\varooj\\Web\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/farzad/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\PakagesForProjects": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/farzad/RiderProjects/Varoj/Data/Data.csproj": {
-                "projectPath": "/Users/farzad/RiderProjects/Varoj/Data/Data.csproj"
+              "C:\\Users\\20\\Desktop\\varooj\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\20\\Desktop\\varooj\\Data\\Data.csproj"
               }
             }
           }
@@ -208,7 +232,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -254,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/farzad/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
